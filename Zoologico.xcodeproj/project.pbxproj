@@ -16,6 +16,13 @@
 		3D93C51C253B7C18009FE41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D93C51A253B7C18009FE41B /* LaunchScreen.storyboard */; };
 		3D93C527253B7C18009FE41B /* ZoologicoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C526253B7C18009FE41B /* ZoologicoTests.swift */; };
 		3D93C532253B7C18009FE41B /* ZoologicoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C531253B7C18009FE41B /* ZoologicoUITests.swift */; };
+		3D93C542253B99B9009FE41B /* AnimalsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C541253B99B9009FE41B /* AnimalsCollectionViewController.swift */; };
+		3D93C546253BA503009FE41B /* AnimalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C545253BA503009FE41B /* AnimalViewCell.swift */; };
+		3D93C547253BAB33009FE41B /* AnimalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C545253BA503009FE41B /* AnimalViewCell.swift */; };
+		3D93C548253BAB34009FE41B /* AnimalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C545253BA503009FE41B /* AnimalViewCell.swift */; };
+		3D93C54A253BAD2F009FE41B /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C549253BAD2F009FE41B /* Animal.swift */; };
+		3D93C54B253BAD56009FE41B /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C549253BAD2F009FE41B /* Animal.swift */; };
+		3D93C54C253BAD57009FE41B /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D93C549253BAD2F009FE41B /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,9 @@
 		3D93C52D253B7C18009FE41B /* ZoologicoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoologicoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D93C531253B7C18009FE41B /* ZoologicoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoologicoUITests.swift; sourceTree = "<group>"; };
 		3D93C533253B7C18009FE41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D93C541253B99B9009FE41B /* AnimalsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsCollectionViewController.swift; sourceTree = "<group>"; };
+		3D93C545253BA503009FE41B /* AnimalViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewCell.swift; sourceTree = "<group>"; };
+		3D93C549253BAD2F009FE41B /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,9 @@
 				3D93C518253B7C18009FE41B /* Assets.xcassets */,
 				3D93C51A253B7C18009FE41B /* LaunchScreen.storyboard */,
 				3D93C51D253B7C18009FE41B /* Info.plist */,
+				3D93C541253B99B9009FE41B /* AnimalsCollectionViewController.swift */,
+				3D93C545253BA503009FE41B /* AnimalViewCell.swift */,
+				3D93C549253BAD2F009FE41B /* Animal.swift */,
 			);
 			path = Zoologico;
 			sourceTree = "<group>";
@@ -264,8 +277,11 @@
 			files = (
 				3D93C514253B7BFA009FE41B /* SecondViewController.swift in Sources */,
 				3D93C512253B7BFA009FE41B /* FirstViewController.swift in Sources */,
+				3D93C546253BA503009FE41B /* AnimalViewCell.swift in Sources */,
 				3D93C50E253B7BFA009FE41B /* AppDelegate.swift in Sources */,
+				3D93C54A253BAD2F009FE41B /* Animal.swift in Sources */,
 				3D93C510253B7BFA009FE41B /* SceneDelegate.swift in Sources */,
+				3D93C542253B99B9009FE41B /* AnimalsCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D93C547253BAB33009FE41B /* AnimalViewCell.swift in Sources */,
 				3D93C527253B7C18009FE41B /* ZoologicoTests.swift in Sources */,
+				3D93C54C253BAD57009FE41B /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D93C548253BAB34009FE41B /* AnimalViewCell.swift in Sources */,
 				3D93C532253B7C18009FE41B /* ZoologicoUITests.swift in Sources */,
+				3D93C54B253BAD56009FE41B /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
